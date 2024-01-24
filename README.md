@@ -1,4 +1,4 @@
-Method 1: simple entity linking based on Exact match
+Method 1: Simple entity linking based on entity-mention match: 
 - Perform NER using a pre-trained spacy pipeline.
 - Filter out the ORG entities as we are interested in companies.
 - Search for the ORG names in the company_collection name list and match them with the corresponding URL.
