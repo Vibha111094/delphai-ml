@@ -7,7 +7,7 @@ Implementation in simple_entity_linking.ipynb, results in news_articles-linked.j
 
 This method although simple, works in almost 60% of the cases, however, the con is that it does not take into account the description of the companies, and how that relates to the context in which the entity is used.
 
-Method 2: Semantic Entity Linking
+Method 2: Semantic Entity Linking  
 This approach typically has the following steps:  
 Text ---> NER ----> Candidate Generation ----->Entity Linking
 
