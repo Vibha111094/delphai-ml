@@ -32,8 +32,8 @@ Create 2 encoders:
 - Context encoder
 - Candidate encoder
 
-Input to the Context encoder would be Context, Mention, Context
-Input to the Candidate encoder would be Title, Description
+Input to the Context encoder would be Context, Mention, Context.  
+Input to the Candidate encoder would be Title, Description.  
 The Siamese network is trained such that the if the candidate refers to the mention in the context the score is 1, or else it is 0.
 
 Once the network is trained, the Nearest neighbor algorithm is used to generate candidate entities, followed by the entity linking.
