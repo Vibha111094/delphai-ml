@@ -25,7 +25,7 @@ also the alias
 - Train the entity linker using the training data set that we created.
 - This would create a pipeline that can link each mention to its corresponding entity.
 
-Partial implementation in [train_entity_linking.ipynb](https://github.com/Vibha111094/delphai-ml/blob/master/news_articles-linked.jsonl)
+Partial implementation in [train_entity_linking.ipynb](https://github.com/Vibha111094/delphai-ml/blob/master/train_entity_linking.ipynb)
 
 Faced challenges with the spacy version incompatibility issue, and linking the Knowledge base to the spacy pipeline, and realized it would take some more time to resolve and get it right.
 
