@@ -3,7 +3,8 @@ Method 1: Simple entity linking based on entity-mention match:
 - Filter out the ORG entities as we are interested in companies.
 - Search for the ORG names in the company_collection name list and match them with the corresponding URL.
 
-Implementation in [simple_entity_linking.ipynb](https://github.com/Vibha111094/delphai-ml/blob/master/simple_entity_linking.ipynb) results in news_articles-linked.jsonl
+Implementation in [simple_entity_linking.ipynb](https://github.com/Vibha111094/delphai-ml/blob/master/simple_entity_linking.ipynb),
+results in [news_articles-linked.jsonl](https://github.com/Vibha111094/delphai-ml/blob/master/news_articles-linked.jsonl)
 
 This method although simple, works in almost 60% of the cases, however, the con is that it does not take into account the description of the companies, and how that relates to the context in which the entity is used.
 
